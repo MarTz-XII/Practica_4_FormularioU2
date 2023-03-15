@@ -14,8 +14,7 @@ $asunto = 'Este mail fue enviado desde la pagina web';
 
 
 mail($para, $asunto, $nombre);
-echo "<script>alert('correo enviado exitosamente') </script>";
-echo "<script> setTimeout(\"location.href='index.html'\",2000) </script>";
+
 
 
 ?>
